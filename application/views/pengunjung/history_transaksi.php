@@ -102,7 +102,11 @@
 						       		
 						       		<td style="text-align:center">
 						       			<?php if ($value->status == 0){ ?>
+<<<<<<< HEAD
 						       				<span class="btn btn-danger">Pemesanan Belum di konfirmasi</span>
+=======
+						       				<span class="btn btn-danger">Tiket Belum di konfirmasi</span>
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
 						       			<?php }else{ ?>
 						       				<a href="<?php echo site_url('c_pengunjung/detail_booking/') ?><?php echo$value->id_pesanan;?>">
 						       					<span class="btn btn-info" >Lihat Booking</span>
@@ -111,7 +115,11 @@
 						       		</td>
 						       		<td style="text-align:center">
 						       			<?php if ($value->status == 0){ ?>
+<<<<<<< HEAD
 						       				<span class="btn btn-danger">Pemesanan Belum di konfirmasi</span>
+=======
+						       				<span class="btn btn-danger">Tiket Belum di konfirmasi</span>
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
 						       			<?php }else{ ?>
 						       				<span class="btn btn-success">Lunas</span>
 						       			<?php } ?>

@@ -54,7 +54,11 @@
                        <div class="col-md-12">
                         <p style="color: #000;">
                           <?php if ($value->jumlah_kursi != 0 ){ ?>
+<<<<<<< HEAD
                             <b><?php echo $value->jumlah_kursi; ?></b> Meja Tersedia
+=======
+                            <b><?php echo $value->jumlah_kursi; ?></b> Tiket Tersedia
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
                           <?php }else { ?>
                           Tiket tidak Tersedia</p>
                         <?php }?>

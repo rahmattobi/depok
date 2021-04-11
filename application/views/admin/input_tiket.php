@@ -34,12 +34,20 @@
                                     </div>
                                     <div class="col-lg-10 col-9">
                                         <div class="form-group">
+<<<<<<< HEAD
                                             <?php foreach ($wisata as $key => $value): ?>
                                                 <select class="form-select round" name="id" aria-label="Default select example">
                                                     <option selected disabled>Nama Wisata</option>
                                                     <option value="<?php echo $value->id_wisata ?>"><?php echo $value->nama_wisata; ?></option>
                                                 </select>
                                             <?php endforeach ?>
+=======
+                                            <select class="form-select round" name="id" aria-label="Default select example">
+                                                <?php foreach ($wisata as $key => $value): ?>
+                                                    <option value="<?php echo $value->id_wisata ?>"><?php echo $value->nama_wisata; ?></option>
+                                                <?php endforeach ?>
+                                            </select>
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
                                         </div>
                                     </div>
                                 </div>

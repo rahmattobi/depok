@@ -9,7 +9,11 @@
 
   <link rel="stylesheet" href="<?= base_url('asset/css/')?>open-iconic-bootstrap.min.css">
   <link rel="stylesheet" href="<?= base_url('asset/css/')?>animate.css">
+<<<<<<< HEAD
   <link rel="icon" href="<?= base_url('asset/')?>images/icon.png" type="image/x-icon"/>
+=======
+
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
   <link rel="stylesheet" href="<?= base_url('asset/css/')?>owl.carousel.min.css">
   <link rel="stylesheet" href="<?= base_url('asset/css/')?>owl.theme.default.min.css">
   <link rel="stylesheet" href="<?= base_url('asset/css/')?>magnific-popup.css">
@@ -44,7 +48,11 @@
               <a class="dropdown-item" href="<?php echo base_url(); ?>c_pengunjung/kuliner">Wisata Kuliner</a>
             </div>
           </li>
+<<<<<<< HEAD
           <li class="nav-item"><a href="<?php echo base_url() ?>c_pengunjung/profile" class="nav-link">Profile</a></li>
+=======
+          <li class="nav-item"><a href="" class="nav-link">Profile</a></li>
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
           <li class="nav-item"><a href="<?php echo base_url(); ?>c_pengunjung/history_transaksi" class="nav-link">History Transaksi</a></li>
           <li class="nav-item"><a href="<?php echo base_url(); ?>c_login/logout" class="nav-link">Logout</a></li>
           <?php 

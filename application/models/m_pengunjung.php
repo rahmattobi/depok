@@ -331,7 +331,11 @@ class M_pengunjung extends CI_Model {
 
   public function updateprofile($id,$data)
   {
+<<<<<<< HEAD
     $this->db->where('id_user', $id);
+=======
+    $this->db->where('user_id', $id);
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
     return $this->db->update('user',$data);
   }
 

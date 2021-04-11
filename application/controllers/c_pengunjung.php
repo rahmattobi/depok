@@ -33,6 +33,7 @@ class C_pengunjung extends CI_Controller {
 		$this->load->view('pengunjung/temp', $data);
 	}
 
+<<<<<<< HEAD
 	public function profile()
 	{
 		if($this->session->userdata('logged_in') !== TRUE){
@@ -74,6 +75,8 @@ class C_pengunjung extends CI_Controller {
 			redirect('c_pengunjung/profile','refresh');
 	}
 
+=======
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
 	public function wisata()
 	{
 		if($this->session->userdata('logged_in') !== TRUE){
@@ -127,6 +130,10 @@ class C_pengunjung extends CI_Controller {
 	public function detail_wisataa($id)
 	{
 		$data['get_wisata']= $this->m_pengunjung->get_wisata();
+<<<<<<< HEAD
+=======
+		$data['ulasan']= $this->m_pengunjung->ulasan($id);
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
 		$data['get_detailwisata']= $this->m_pengunjung->get_detailwisata($id);
 		$data['content']='pengunjung/detail_wisataa';
 		$this->load->view('pengunjung/template', $data);
@@ -134,6 +141,10 @@ class C_pengunjung extends CI_Controller {
 
 	public function detail_kulinerr($id)
 	{
+<<<<<<< HEAD
+=======
+		$data['testimoni']= $this->m_pengunjung->testimoni($id);
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
 		$data['get_kuliner']= $this->m_pengunjung->get_kuliner();
 		$data['get_detailkuliner']= $this->m_pengunjung->get_detailkuliner($id);
 		$data['content']='pengunjung/detail_kulinerr';

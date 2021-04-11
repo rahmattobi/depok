@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign in</title>
     <link rel="stylesheet" href="<?= base_url('assets/')?>css/bootstrap.css">
+<<<<<<< HEAD
   <link rel="icon" href="<?= base_url('asset/')?>images/icon.png" type="image/x-icon"/>
     
+=======
+    
+    <link rel="shortcut icon" href="<?= base_url('assets/')?>images/favicon.svg" type="image/x-icon">
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
     <link rel="stylesheet" href="<?= base_url('assets/')?>css/app.css">
 </head>
 
@@ -20,7 +25,11 @@
             <div class="card pt-4">
                 <div class="card-body">
                     <div class="text-center mb-5">
+<<<<<<< HEAD
                         <img src="<?= base_url('asset/')?>images/logo.png" width="150" class='mb-4'>
+=======
+                        <img src="<?= base_url('assets/')?>images/favicon.svg" height="48" class='mb-4'>
+>>>>>>> 81f08e59ae19c39556e4d05ed3a708c8e23a8232
                         <h3>Sign In</h3>
                         <p>Masukkan Username dan Password</p>
                     </div>
